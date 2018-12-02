@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Staneography</title>
+		<link rel="stylesheet" type="text/css" href="styling.css"/>
+		<script src="SimpleImage.js"></script>
+		<script src="cs101.js"></script>
+		<script src="js.js"></script>
+	</head>
+	
+	<body>
+		<div id="div1">
+			<h1>Staneography Science</h1>
+			<p id="top">the <b>science</b> of <b>hiding</b> <ins>data</ins>, <ins>images</ins> or <ins>text</ins></b><br/> inside of an <b>image</b> or <ins>anything</ins> <b>digital</b> like an audio file.</p>
+		</div>
+		<div id="div2">
+			Upload an image to be hidden:-
+			<br/>
+			<input type="file" multiple="false" accept="image/*" id="hideF" onchange="loadHide()"/>
+			<br/>
+			<canvas id="hideCanvas"></canvas>
+		</div>
+		</br>
+		<div id="div3">
+			Upload an image to be hidden in the previous image:-
+			<br/>
+			<input type="file" multiple="false" accept="image/*" id="showF" onchange="loadShow()"/>
+			<br/>
+			<canvas id="showCanvas"></canvas>
+		</div>
+		<div id="div4">
+			<h1>To <b>Hide</b> the <b><ins>first</ins> image</b> in the <b>second</b> Image</h1>
+			<input type="button" value="hide" onclick="hide()"/>
+			<canvas id="finalCanvas"></canvas>
+		</div>
+	</body>
+	
+
+
+</html>

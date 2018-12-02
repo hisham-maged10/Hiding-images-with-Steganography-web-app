@@ -1,0 +1,24 @@
+/**
+ * @author ${hisham_maged10}
+ *https://github.com/hisham-maged10
+ * ${WebApps}
+ */
+#div1,#div4{
+	background-color:fireBrick;
+	color:white;
+	text-align:center;
+	padding:10px;
+	font-family:verdana, new courier;
+}
+#div2,#div3{
+	background-color:white;
+	color:firebrick;
+	padding:10px;
+	font-family:arial;
+}
+#top{
+	font-size:160%;
+}
+body{
+	background-color:#4d4d4d;
+}
